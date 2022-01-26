@@ -1,6 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-
+        Dom dom1 = new Dom();
+        String adres = dom1.adresBudynku("Gdynia", "Bema", 29, "50", "81-456");
+        System.out.println(adres);
         /* zad.1
         a) Stwożyć interfejs Budynek,
         b) interfejs powinien mieć metody:
