@@ -2,6 +2,8 @@
 public class Main {
     public static void main(String[] args) {
 
+
+
         /* zad.1
         a) napisać interfejs CzlowiekI,
         b) zadeklarować 2 metody,
