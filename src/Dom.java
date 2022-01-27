@@ -19,14 +19,22 @@ public class Dom implements Budynek{
     public void setliczbaOkien(int value){
         this.liczbaOkien = value;
     } // użycie jak setter
+
+    public int getLiczbaOkien(){
+        return this.liczbaOkien;
+    }
     @Override
     public void setliczbaMieszkancow(int value){
         this.liczbaMieszkancow = value;
     } // użycie jak setter
+    public int getLiczbaMieszkancow(){
+        return this.liczbaMieszkancow;
+    }
     @Override
     public void setkolorDomu(KolorEnum kolor){
         this.KolorEnum = kolor;
     } // użycie jak setter
+
     @Override
     public double wyliczCene(double powierzchnia, double cena){
         double wynik = cena/powierzchnia;
@@ -37,7 +45,12 @@ public class Dom implements Budynek{
         double wynik = powierzchnia/liczbamieszkancow;
         return  wynik;
     }
+
+
     public void setJedno(Boolean value){
         this.jednorodz = value;
+    }
+    public Boolean getJedno(){
+        return this.jednorodz;
     }
 }
