@@ -2,6 +2,38 @@
 public class Main {
     public static void main(String[] args) {
 
+        Student stu1 = new Student();
+        Student stu2 = new Student();
+        Pracownik pra1 = new Pracownik();
+        Pracownik pra2 = new Pracownik();
+
+        stu1.setimie("Adam");
+        stu1.setwiek(24);
+        stu1.setindeks("32422");
+        stu1.setuczelnia("Uniwersytet Polski");
+        stu1.setZdal(false);
+        stu1.tooString();
+
+        stu2.setimie("Wanda");
+        stu2.setwiek(25);
+        stu2.setindeks("35433");
+        stu2.setuczelnia("Uniwersytet Gdanski");
+        stu2.setZdal(false);
+        stu2.tooString();
+
+        pra1.setimie("Michal");
+        pra1.setwiek(32);
+        pra1.setGodzPrac(45);
+        pra1.setPraca("OknoPolEx Import/Export");
+        pra1.setPensja(3400);
+        pra1.tooString();
+
+        pra2.setimie("Jonasz");
+        pra2.setwiek(56);
+        pra2.setGodzPrac(35);
+        pra2.setPraca("OknoPolEx Import/Export");
+        pra2.setPensja(12300);
+        pra2.tooString();
 
 
         /* zad.1
